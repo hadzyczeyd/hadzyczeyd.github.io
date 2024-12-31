@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+      /* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+      /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(4 120 87);
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
