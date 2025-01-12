@@ -191,15 +191,58 @@
       </div>
     </section>
 
+      <section class="text-gray-600 body-font relative" id="kontakt">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Kontaktirajte nas</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Za pitanja, primjede ili tehničke probleme pošaljite nam poruku.</p>
+          </div>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="e148e5cb-a4f8-406b-84e9-326f897af3fd">
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+              <div class="flex flex-wrap -m-2">
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="name" class="leading-7 text-sm text-gray-600">Ime</label>
+                    <input required type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Mejl</label>
+                    <input required type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
+                <div class="p-2 w-full">
+                  <div class="relative">
+                    <label for="message" class="leading-7 text-sm text-gray-600">Poruka</label>
+                    <textarea required id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                  </div>
+                </div>
+                <div class="p-2 w-full">
+                  <button type="submit" class="flex mx-auto text-white border-0 py-2 px-8 focus:outline-none bg-emerald-700 hover:bg-emerald-400 transition-all hover:text-emerald-900 rounded text-lg">Pošalji</button>
+                </div>
+                <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                  Ili pošaljite mejl na: <br>
+                  <a class="text-emerald-700">zejd@synergydesign.io</a>
+                </div>
+              </div>
+            </div>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          </form>
+          
+        </div>
+      </section>
+
 
     <footer class="bg-gray-50">
-      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
-        <div class="sm:flex sm:items-center sm:justify-center">
-    
-          <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
-            Copyright &copy; 2025. Sva prava zadržana. <br> Website dizajn: <a target="_blank" class="underline text-teal-600 font-semibold" href="https://synergydesign.io">synergydesign.io</a>
-          </p>
-        </div>
+      <div class="flex py-8 flex-col items-center justify-center">
+        <p class="my-2 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+          Copyright &copy; 2025. Sva prava zadržana.
+        </p>
+        <p class="my-2 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+          Website dizajn: <a target="_blank" class="underline text-teal-600 font-semibold" href="https://synergydesign.io">synergydesign.io</a>
+        </p>
       </div>
     </footer>
   </body>
